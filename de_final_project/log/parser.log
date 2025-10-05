@@ -1,0 +1,246 @@
+2025-10-05 14:00:32,789 [INFO] [1/13] Processing PDF: March 3rd 2025 - December 31st 2024 Crime News
+2025-10-05 14:00:32,789 [INFO] Already downloaded: downloads/March_3rd_2025_-_December_31st_2024_Crime_News.pdf
+2025-10-05 14:00:32,820 [INFO] Opened PDF: downloads/March_3rd_2025_-_December_31st_2024_Crime_News.pdf with 8 pages
+2025-10-05 14:00:32,973 [INFO] [March 3rd 2025 - December 31st 2024 Crime News] Page 1, 31 lines
+2025-10-05 14:00:33,137 [INFO] [March 3rd 2025 - December 31st 2024 Crime News] Page 2, 35 lines
+2025-10-05 14:00:33,231 [INFO] [March 3rd 2025 - December 31st 2024 Crime News] Page 3, 21 lines
+2025-10-05 14:00:33,353 [INFO] [March 3rd 2025 - December 31st 2024 Crime News] Page 4, 32 lines
+2025-10-05 14:00:33,505 [INFO] [March 3rd 2025 - December 31st 2024 Crime News] Page 5, 33 lines
+2025-10-05 14:00:33,617 [INFO] [March 3rd 2025 - December 31st 2024 Crime News] Page 6, 32 lines
+2025-10-05 14:00:33,765 [INFO] [March 3rd 2025 - December 31st 2024 Crime News] Page 7, 33 lines
+2025-10-05 14:00:33,889 [INFO] [March 3rd 2025 - December 31st 2024 Crime News] Page 8, 28 lines
+2025-10-05 14:00:33,890 [INFO] Parsed 33 cases from downloads/March_3rd_2025_-_December_31st_2024_Crime_News.pdf
+2025-10-05 14:00:33,890 [INFO] [1/13] Total cases collected so far: 33
+2025-10-05 14:00:33,890 [INFO] [2/13] Processing PDF: December 30th 2024 - October 1st 2024 Crime News
+2025-10-05 14:00:33,890 [INFO] Already downloaded: downloads/December_30th_2024_-_October_1st_2024_Crime_News.pdf
+2025-10-05 14:00:33,996 [INFO] Opened PDF: downloads/December_30th_2024_-_October_1st_2024_Crime_News.pdf with 13 pages
+2025-10-05 14:00:34,215 [INFO] [December 30th 2024 - October 1st 2024 Crime News] Page 1, 34 lines
+2025-10-05 14:00:34,506 [INFO] [December 30th 2024 - October 1st 2024 Crime News] Page 2, 34 lines
+2025-10-05 14:00:34,648 [INFO] [December 30th 2024 - October 1st 2024 Crime News] Page 3, 33 lines
+2025-10-05 14:00:34,792 [INFO] [December 30th 2024 - October 1st 2024 Crime News] Page 4, 33 lines
+2025-10-05 14:00:35,072 [INFO] [December 30th 2024 - October 1st 2024 Crime News] Page 5, 33 lines
+2025-10-05 14:00:35,246 [INFO] [December 30th 2024 - October 1st 2024 Crime News] Page 6, 32 lines
+2025-10-05 14:00:35,419 [INFO] [December 30th 2024 - October 1st 2024 Crime News] Page 7, 33 lines
+2025-10-05 14:00:35,598 [INFO] [December 30th 2024 - October 1st 2024 Crime News] Page 8, 32 lines
+2025-10-05 14:00:35,731 [INFO] [December 30th 2024 - October 1st 2024 Crime News] Page 9, 31 lines
+2025-10-05 14:00:35,898 [INFO] [December 30th 2024 - October 1st 2024 Crime News] Page 10, 34 lines
+2025-10-05 14:00:36,053 [INFO] [December 30th 2024 - October 1st 2024 Crime News] Page 11, 33 lines
+2025-10-05 14:00:36,205 [INFO] [December 30th 2024 - October 1st 2024 Crime News] Page 12, 33 lines
+2025-10-05 14:00:36,280 [INFO] [December 30th 2024 - October 1st 2024 Crime News] Page 13, 16 lines
+2025-10-05 14:00:36,281 [INFO] Parsed 62 cases from downloads/December_30th_2024_-_October_1st_2024_Crime_News.pdf
+2025-10-05 14:00:36,282 [INFO] [2/13] Total cases collected so far: 95
+2025-10-05 14:00:36,282 [INFO] [3/13] Processing PDF: September 30th 2024 - July 2nd 2024 Crime News
+2025-10-05 14:00:36,282 [INFO] Already downloaded: downloads/September_30th_2024_-_July_2nd_2024_Crime_News.pdf
+2025-10-05 14:00:36,311 [INFO] Opened PDF: downloads/September_30th_2024_-_July_2nd_2024_Crime_News.pdf with 15 pages
+2025-10-05 14:00:36,528 [INFO] [September 30th 2024 - July 2nd 2024 Crime News] Page 1, 32 lines
+2025-10-05 14:00:36,658 [INFO] [September 30th 2024 - July 2nd 2024 Crime News] Page 2, 32 lines
+2025-10-05 14:00:36,819 [INFO] [September 30th 2024 - July 2nd 2024 Crime News] Page 3, 33 lines
+2025-10-05 14:00:37,106 [INFO] [September 30th 2024 - July 2nd 2024 Crime News] Page 4, 33 lines
+2025-10-05 14:00:37,288 [INFO] [September 30th 2024 - July 2nd 2024 Crime News] Page 5, 34 lines
+2025-10-05 14:00:37,421 [INFO] [September 30th 2024 - July 2nd 2024 Crime News] Page 6, 31 lines
+2025-10-05 14:00:37,688 [INFO] [September 30th 2024 - July 2nd 2024 Crime News] Page 7, 33 lines
+2025-10-05 14:00:37,833 [INFO] [September 30th 2024 - July 2nd 2024 Crime News] Page 8, 33 lines
+2025-10-05 14:00:38,017 [INFO] [September 30th 2024 - July 2nd 2024 Crime News] Page 9, 34 lines
+2025-10-05 14:00:38,158 [INFO] [September 30th 2024 - July 2nd 2024 Crime News] Page 10, 33 lines
+2025-10-05 14:00:38,289 [INFO] [September 30th 2024 - July 2nd 2024 Crime News] Page 11, 33 lines
+2025-10-05 14:00:38,485 [INFO] [September 30th 2024 - July 2nd 2024 Crime News] Page 12, 34 lines
+2025-10-05 14:00:38,657 [INFO] [September 30th 2024 - July 2nd 2024 Crime News] Page 13, 35 lines
+2025-10-05 14:00:38,812 [INFO] [September 30th 2024 - July 2nd 2024 Crime News] Page 14, 33 lines
+2025-10-05 14:00:38,863 [INFO] [September 30th 2024 - July 2nd 2024 Crime News] Page 15, 14 lines
+2025-10-05 14:00:38,864 [INFO] Parsed 71 cases from downloads/September_30th_2024_-_July_2nd_2024_Crime_News.pdf
+2025-10-05 14:00:38,864 [INFO] [3/13] Total cases collected so far: 166
+2025-10-05 14:00:38,864 [INFO] [4/13] Processing PDF: July 1st 2024 - April 2nd 2024 Crime News
+2025-10-05 14:00:38,864 [INFO] Already downloaded: downloads/July_1st_2024_-_April_2nd_2024_Crime_News.pdf
+2025-10-05 14:00:38,890 [INFO] Opened PDF: downloads/July_1st_2024_-_April_2nd_2024_Crime_News.pdf with 15 pages
+2025-10-05 14:00:39,056 [INFO] [July 1st 2024 - April 2nd 2024 Crime News] Page 1, 33 lines
+2025-10-05 14:00:39,207 [INFO] [July 1st 2024 - April 2nd 2024 Crime News] Page 2, 33 lines
+2025-10-05 14:00:39,448 [INFO] [July 1st 2024 - April 2nd 2024 Crime News] Page 3, 33 lines
+2025-10-05 14:00:39,581 [INFO] [July 1st 2024 - April 2nd 2024 Crime News] Page 4, 32 lines
+2025-10-05 14:00:39,765 [INFO] [July 1st 2024 - April 2nd 2024 Crime News] Page 5, 35 lines
+2025-10-05 14:00:40,020 [INFO] [July 1st 2024 - April 2nd 2024 Crime News] Page 6, 34 lines
+2025-10-05 14:00:40,157 [INFO] [July 1st 2024 - April 2nd 2024 Crime News] Page 7, 33 lines
+2025-10-05 14:00:40,293 [INFO] [July 1st 2024 - April 2nd 2024 Crime News] Page 8, 33 lines
+2025-10-05 14:00:40,471 [INFO] [July 1st 2024 - April 2nd 2024 Crime News] Page 9, 33 lines
+2025-10-05 14:00:40,727 [INFO] [July 1st 2024 - April 2nd 2024 Crime News] Page 10, 33 lines
+2025-10-05 14:00:40,895 [INFO] [July 1st 2024 - April 2nd 2024 Crime News] Page 11, 33 lines
+2025-10-05 14:00:41,035 [INFO] [July 1st 2024 - April 2nd 2024 Crime News] Page 12, 32 lines
+2025-10-05 14:00:41,169 [INFO] [July 1st 2024 - April 2nd 2024 Crime News] Page 13, 33 lines
+2025-10-05 14:00:41,345 [INFO] [July 1st 2024 - April 2nd 2024 Crime News] Page 14, 32 lines
+2025-10-05 14:00:41,452 [INFO] [July 1st 2024 - April 2nd 2024 Crime News] Page 15, 24 lines
+2025-10-05 14:00:41,453 [INFO] Parsed 71 cases from downloads/July_1st_2024_-_April_2nd_2024_Crime_News.pdf
+2025-10-05 14:00:41,454 [INFO] [4/13] Total cases collected so far: 237
+2025-10-05 14:00:41,454 [INFO] [5/13] Processing PDF: April 1st 2024 - January 2nd 2024 Crime News
+2025-10-05 14:00:41,454 [INFO] Already downloaded: downloads/April_1st_2024_-_January_2nd_2024_Crime_News.pdf
+2025-10-05 14:00:41,480 [INFO] Opened PDF: downloads/April_1st_2024_-_January_2nd_2024_Crime_News.pdf with 11 pages
+2025-10-05 14:00:41,632 [INFO] [April 1st 2024 - January 2nd 2024 Crime News] Page 1, 33 lines
+2025-10-05 14:00:41,791 [INFO] [April 1st 2024 - January 2nd 2024 Crime News] Page 2, 34 lines
+2025-10-05 14:00:41,924 [INFO] [April 1st 2024 - January 2nd 2024 Crime News] Page 3, 32 lines
+2025-10-05 14:00:42,069 [INFO] [April 1st 2024 - January 2nd 2024 Crime News] Page 4, 34 lines
+2025-10-05 14:00:42,335 [INFO] [April 1st 2024 - January 2nd 2024 Crime News] Page 5, 34 lines
+2025-10-05 14:00:42,477 [INFO] [April 1st 2024 - January 2nd 2024 Crime News] Page 6, 33 lines
+2025-10-05 14:00:42,618 [INFO] [April 1st 2024 - January 2nd 2024 Crime News] Page 7, 32 lines
+2025-10-05 14:00:42,754 [INFO] [April 1st 2024 - January 2nd 2024 Crime News] Page 8, 33 lines
+2025-10-05 14:00:42,915 [INFO] [April 1st 2024 - January 2nd 2024 Crime News] Page 9, 33 lines
+2025-10-05 14:00:43,043 [INFO] [April 1st 2024 - January 2nd 2024 Crime News] Page 10, 34 lines
+2025-10-05 14:00:43,143 [INFO] [April 1st 2024 - January 2nd 2024 Crime News] Page 11, 17 lines
+2025-10-05 14:00:43,144 [INFO] Parsed 48 cases from downloads/April_1st_2024_-_January_2nd_2024_Crime_News.pdf
+2025-10-05 14:00:43,144 [INFO] [5/13] Total cases collected so far: 285
+2025-10-05 14:00:43,144 [INFO] [6/13] Processing PDF: January 1st 2024 - October 3rd 2023 Crime News
+2025-10-05 14:00:43,144 [INFO] Already downloaded: downloads/January_1st_2024_-_October_3rd_2023_Crime_News.pdf
+2025-10-05 14:00:43,171 [INFO] Opened PDF: downloads/January_1st_2024_-_October_3rd_2023_Crime_News.pdf with 18 pages
+2025-10-05 14:00:43,341 [INFO] [January 1st 2024 - October 3rd 2023 Crime News] Page 1, 33 lines
+2025-10-05 14:00:43,480 [INFO] [January 1st 2024 - October 3rd 2023 Crime News] Page 2, 32 lines
+2025-10-05 14:00:43,647 [INFO] [January 1st 2024 - October 3rd 2023 Crime News] Page 3, 35 lines
+2025-10-05 14:00:43,819 [INFO] [January 1st 2024 - October 3rd 2023 Crime News] Page 4, 35 lines
+2025-10-05 14:00:44,029 [INFO] [January 1st 2024 - October 3rd 2023 Crime News] Page 5, 34 lines
+2025-10-05 14:00:44,169 [INFO] [January 1st 2024 - October 3rd 2023 Crime News] Page 6, 34 lines
+2025-10-05 14:00:44,303 [INFO] [January 1st 2024 - October 3rd 2023 Crime News] Page 7, 31 lines
+2025-10-05 14:00:44,454 [INFO] [January 1st 2024 - October 3rd 2023 Crime News] Page 8, 32 lines
+2025-10-05 14:00:44,615 [INFO] [January 1st 2024 - October 3rd 2023 Crime News] Page 9, 34 lines
+2025-10-05 14:00:44,783 [INFO] [January 1st 2024 - October 3rd 2023 Crime News] Page 10, 33 lines
+2025-10-05 14:00:44,915 [INFO] [January 1st 2024 - October 3rd 2023 Crime News] Page 11, 32 lines
+2025-10-05 14:00:45,068 [INFO] [January 1st 2024 - October 3rd 2023 Crime News] Page 12, 34 lines
+2025-10-05 14:00:45,240 [INFO] [January 1st 2024 - October 3rd 2023 Crime News] Page 13, 34 lines
+2025-10-05 14:00:45,400 [INFO] [January 1st 2024 - October 3rd 2023 Crime News] Page 14, 34 lines
+2025-10-05 14:00:45,597 [INFO] [January 1st 2024 - October 3rd 2023 Crime News] Page 15, 35 lines
+2025-10-05 14:00:45,750 [INFO] [January 1st 2024 - October 3rd 2023 Crime News] Page 16, 31 lines
+2025-10-05 14:00:45,905 [INFO] [January 1st 2024 - October 3rd 2023 Crime News] Page 17, 33 lines
+2025-10-05 14:00:45,936 [INFO] [January 1st 2024 - October 3rd 2023 Crime News] Page 18, 11 lines
+2025-10-05 14:00:45,937 [INFO] Parsed 88 cases from downloads/January_1st_2024_-_October_3rd_2023_Crime_News.pdf
+2025-10-05 14:00:45,937 [INFO] [6/13] Total cases collected so far: 373
+2025-10-05 14:00:45,937 [INFO] [7/13] Processing PDF: October 2nd 2023 - August 1st 2023 Crime News
+2025-10-05 14:00:45,938 [INFO] Already downloaded: downloads/October_2nd_2023_-_August_1st_2023_Crime_News.pdf
+2025-10-05 14:00:45,965 [INFO] Opened PDF: downloads/October_2nd_2023_-_August_1st_2023_Crime_News.pdf with 12 pages
+2025-10-05 14:00:46,142 [INFO] [October 2nd 2023 - August 1st 2023 Crime News] Page 1, 31 lines
+2025-10-05 14:00:46,315 [INFO] [October 2nd 2023 - August 1st 2023 Crime News] Page 2, 33 lines
+2025-10-05 14:00:46,453 [INFO] [October 2nd 2023 - August 1st 2023 Crime News] Page 3, 32 lines
+2025-10-05 14:00:46,754 [INFO] [October 2nd 2023 - August 1st 2023 Crime News] Page 4, 33 lines
+2025-10-05 14:00:46,881 [INFO] [October 2nd 2023 - August 1st 2023 Crime News] Page 5, 33 lines
+2025-10-05 14:00:47,010 [INFO] [October 2nd 2023 - August 1st 2023 Crime News] Page 6, 33 lines
+2025-10-05 14:00:47,123 [INFO] [October 2nd 2023 - August 1st 2023 Crime News] Page 7, 31 lines
+2025-10-05 14:00:47,273 [INFO] [October 2nd 2023 - August 1st 2023 Crime News] Page 8, 34 lines
+2025-10-05 14:00:47,427 [INFO] [October 2nd 2023 - August 1st 2023 Crime News] Page 9, 32 lines
+2025-10-05 14:00:47,580 [INFO] [October 2nd 2023 - August 1st 2023 Crime News] Page 10, 34 lines
+2025-10-05 14:00:47,728 [INFO] [October 2nd 2023 - August 1st 2023 Crime News] Page 11, 33 lines
+2025-10-05 14:00:47,747 [INFO] [October 2nd 2023 - August 1st 2023 Crime News] Page 12, 6 lines
+2025-10-05 14:00:47,748 [INFO] Parsed 59 cases from downloads/October_2nd_2023_-_August_1st_2023_Crime_News.pdf
+2025-10-05 14:00:47,748 [INFO] [7/13] Total cases collected so far: 432
+2025-10-05 14:00:47,748 [INFO] [8/13] Processing PDF: March 28th 2022 - December 20th 2021 Crime News
+2025-10-05 14:00:47,748 [INFO] Already downloaded: downloads/March_28th_2022_-_December_20th_2021_Crime_News.pdf
+2025-10-05 14:00:47,772 [INFO] Opened PDF: downloads/March_28th_2022_-_December_20th_2021_Crime_News.pdf with 13 pages
+2025-10-05 14:00:47,974 [INFO] [March 28th 2022 - December 20th 2021 Crime News] Page 1, 31 lines
+2025-10-05 14:00:48,121 [INFO] [March 28th 2022 - December 20th 2021 Crime News] Page 2, 31 lines
+2025-10-05 14:00:48,254 [INFO] [March 28th 2022 - December 20th 2021 Crime News] Page 3, 29 lines
+2025-10-05 14:00:48,471 [INFO] [March 28th 2022 - December 20th 2021 Crime News] Page 4, 30 lines
+2025-10-05 14:00:48,611 [INFO] [March 28th 2022 - December 20th 2021 Crime News] Page 5, 29 lines
+2025-10-05 14:00:48,714 [INFO] [March 28th 2022 - December 20th 2021 Crime News] Page 6, 29 lines
+2025-10-05 14:00:48,847 [INFO] [March 28th 2022 - December 20th 2021 Crime News] Page 7, 30 lines
+2025-10-05 14:00:48,953 [INFO] [March 28th 2022 - December 20th 2021 Crime News] Page 8, 29 lines
+2025-10-05 14:00:49,001 [INFO] [March 28th 2022 - December 20th 2021 Crime News] Page 9, 7 lines
+2025-10-05 14:00:49,211 [INFO] [March 28th 2022 - December 20th 2021 Crime News] Page 10, 31 lines
+2025-10-05 14:00:49,366 [INFO] [March 28th 2022 - December 20th 2021 Crime News] Page 11, 32 lines
+2025-10-05 14:00:49,536 [INFO] [March 28th 2022 - December 20th 2021 Crime News] Page 12, 31 lines
+2025-10-05 14:00:49,576 [INFO] [March 28th 2022 - December 20th 2021 Crime News] Page 13, 11 lines
+2025-10-05 14:00:49,578 [INFO] Parsed 47 cases from downloads/March_28th_2022_-_December_20th_2021_Crime_News.pdf
+2025-10-05 14:00:49,578 [INFO] [8/13] Total cases collected so far: 479
+2025-10-05 14:00:49,578 [INFO] [9/13] Processing PDF: August 1st 2022 - April 5th 2022 Crime News
+2025-10-05 14:00:49,579 [INFO] Already downloaded: downloads/August_1st_2022_-_April_5th_2022_Crime_News.pdf
+2025-10-05 14:00:49,619 [INFO] Opened PDF: downloads/August_1st_2022_-_April_5th_2022_Crime_News.pdf with 21 pages
+2025-10-05 14:00:49,707 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 1, 13 lines
+2025-10-05 14:00:49,763 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 2, 10 lines
+2025-10-05 14:00:49,886 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 3, 22 lines
+2025-10-05 14:00:50,019 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 4, 34 lines
+2025-10-05 14:00:50,184 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 5, 32 lines
+2025-10-05 14:00:50,330 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 6, 35 lines
+2025-10-05 14:00:50,413 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 7, 18 lines
+2025-10-05 14:00:50,419 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 8, 1 lines
+2025-10-05 14:00:50,551 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 9, 33 lines
+2025-10-05 14:00:50,684 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 10, 33 lines
+2025-10-05 14:00:50,829 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 11, 34 lines
+2025-10-05 14:00:50,978 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 12, 25 lines
+2025-10-05 14:00:51,118 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 13, 32 lines
+2025-10-05 14:00:51,250 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 14, 33 lines
+2025-10-05 14:00:51,376 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 15, 32 lines
+2025-10-05 14:00:51,453 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 16, 19 lines
+2025-10-05 14:00:51,574 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 17, 29 lines
+2025-10-05 14:00:51,743 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 18, 30 lines
+2025-10-05 14:00:51,810 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 19, 13 lines
+2025-10-05 14:00:51,890 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 20, 17 lines
+2025-10-05 14:00:52,000 [INFO] [August 1st 2022 - April 5th 2022 Crime News] Page 21, 29 lines
+2025-10-05 14:00:52,002 [INFO] Parsed 64 cases from downloads/August_1st_2022_-_April_5th_2022_Crime_News.pdf
+2025-10-05 14:00:52,002 [INFO] [9/13] Total cases collected so far: 543
+2025-10-05 14:00:52,002 [INFO] [10/13] Processing PDF: October 3rd 2022 - August 2nd 2022 Crime News
+2025-10-05 14:00:52,002 [INFO] Already downloaded: downloads/October_3rd_2022_-_August_2nd_2022_Crime_News.pdf
+2025-10-05 14:00:52,024 [INFO] Opened PDF: downloads/October_3rd_2022_-_August_2nd_2022_Crime_News.pdf with 12 pages
+2025-10-05 14:00:52,186 [INFO] [October 3rd 2022 - August 2nd 2022 Crime News] Page 1, 32 lines
+2025-10-05 14:00:52,252 [INFO] [October 3rd 2022 - August 2nd 2022 Crime News] Page 2, 14 lines
+2025-10-05 14:00:52,403 [INFO] [October 3rd 2022 - August 2nd 2022 Crime News] Page 3, 34 lines
+2025-10-05 14:00:52,617 [INFO] [October 3rd 2022 - August 2nd 2022 Crime News] Page 4, 32 lines
+2025-10-05 14:00:52,724 [INFO] [October 3rd 2022 - August 2nd 2022 Crime News] Page 5, 22 lines
+2025-10-05 14:00:52,840 [INFO] [October 3rd 2022 - August 2nd 2022 Crime News] Page 6, 31 lines
+2025-10-05 14:00:52,972 [INFO] [October 3rd 2022 - August 2nd 2022 Crime News] Page 7, 33 lines
+2025-10-05 14:00:53,104 [INFO] [October 3rd 2022 - August 2nd 2022 Crime News] Page 8, 31 lines
+2025-10-05 14:00:53,225 [INFO] [October 3rd 2022 - August 2nd 2022 Crime News] Page 9, 31 lines
+2025-10-05 14:00:53,373 [INFO] [October 3rd 2022 - August 2nd 2022 Crime News] Page 10, 31 lines
+2025-10-05 14:00:53,508 [INFO] [October 3rd 2022 - August 2nd 2022 Crime News] Page 11, 33 lines
+2025-10-05 14:00:53,595 [INFO] [October 3rd 2022 - August 2nd 2022 Crime News] Page 12, 22 lines
+2025-10-05 14:00:53,596 [INFO] Parsed 45 cases from downloads/October_3rd_2022_-_August_2nd_2022_Crime_News.pdf
+2025-10-05 14:00:53,596 [INFO] [10/13] Total cases collected so far: 588
+2025-10-05 14:00:53,596 [INFO] [11/13] Processing PDF: January 2nd 2023 - October 4th 2022 Crime News
+2025-10-05 14:00:53,596 [INFO] Already downloaded: downloads/January_2nd_2023_-_October_4th_2022_Crime_News.pdf
+2025-10-05 14:00:53,623 [INFO] Opened PDF: downloads/January_2nd_2023_-_October_4th_2022_Crime_News.pdf with 13 pages
+2025-10-05 14:00:53,801 [INFO] [January 2nd 2023 - October 4th 2022 Crime News] Page 1, 34 lines
+2025-10-05 14:00:53,935 [INFO] [January 2nd 2023 - October 4th 2022 Crime News] Page 2, 32 lines
+2025-10-05 14:00:54,064 [INFO] [January 2nd 2023 - October 4th 2022 Crime News] Page 3, 32 lines
+2025-10-05 14:00:54,247 [INFO] [January 2nd 2023 - October 4th 2022 Crime News] Page 4, 33 lines
+2025-10-05 14:00:54,388 [INFO] [January 2nd 2023 - October 4th 2022 Crime News] Page 5, 33 lines
+2025-10-05 14:00:54,524 [INFO] [January 2nd 2023 - October 4th 2022 Crime News] Page 6, 32 lines
+2025-10-05 14:00:54,669 [INFO] [January 2nd 2023 - October 4th 2022 Crime News] Page 7, 32 lines
+2025-10-05 14:00:54,831 [INFO] [January 2nd 2023 - October 4th 2022 Crime News] Page 8, 32 lines
+2025-10-05 14:00:55,059 [INFO] [January 2nd 2023 - October 4th 2022 Crime News] Page 9, 33 lines
+2025-10-05 14:00:55,331 [INFO] [January 2nd 2023 - October 4th 2022 Crime News] Page 10, 32 lines
+2025-10-05 14:00:55,516 [INFO] [January 2nd 2023 - October 4th 2022 Crime News] Page 11, 32 lines
+2025-10-05 14:00:55,612 [INFO] [January 2nd 2023 - October 4th 2022 Crime News] Page 12, 22 lines
+2025-10-05 14:00:55,677 [INFO] [January 2nd 2023 - October 4th 2022 Crime News] Page 13, 16 lines
+2025-10-05 14:00:55,678 [INFO] Parsed 59 cases from downloads/January_2nd_2023_-_October_4th_2022_Crime_News.pdf
+2025-10-05 14:00:55,678 [INFO] [11/13] Total cases collected so far: 647
+2025-10-05 14:00:55,678 [INFO] [12/13] Processing PDF: April 3rd 2023 - January 3rd 2023 Crime News
+2025-10-05 14:00:55,679 [INFO] Already downloaded: downloads/April_3rd_2023_-_January_3rd_2023_Crime_News.pdf
+2025-10-05 14:00:55,697 [INFO] Opened PDF: downloads/April_3rd_2023_-_January_3rd_2023_Crime_News.pdf with 9 pages
+2025-10-05 14:00:55,826 [INFO] [April 3rd 2023 - January 3rd 2023 Crime News] Page 1, 31 lines
+2025-10-05 14:00:55,969 [INFO] [April 3rd 2023 - January 3rd 2023 Crime News] Page 2, 35 lines
+2025-10-05 14:00:56,163 [INFO] [April 3rd 2023 - January 3rd 2023 Crime News] Page 3, 33 lines
+2025-10-05 14:00:56,297 [INFO] [April 3rd 2023 - January 3rd 2023 Crime News] Page 4, 32 lines
+2025-10-05 14:00:56,429 [INFO] [April 3rd 2023 - January 3rd 2023 Crime News] Page 5, 30 lines
+2025-10-05 14:00:56,592 [INFO] [April 3rd 2023 - January 3rd 2023 Crime News] Page 6, 32 lines
+2025-10-05 14:00:56,743 [INFO] [April 3rd 2023 - January 3rd 2023 Crime News] Page 7, 32 lines
+2025-10-05 14:00:56,945 [INFO] [April 3rd 2023 - January 3rd 2023 Crime News] Page 8, 35 lines
+2025-10-05 14:00:56,956 [INFO] [April 3rd 2023 - January 3rd 2023 Crime News] Page 9, 3 lines
+2025-10-05 14:00:56,956 [INFO] Parsed 33 cases from downloads/April_3rd_2023_-_January_3rd_2023_Crime_News.pdf
+2025-10-05 14:00:56,956 [INFO] [12/13] Total cases collected so far: 680
+2025-10-05 14:00:56,956 [INFO] [13/13] Processing PDF: July 31st 2023 - April 4th 2023 Crime News
+2025-10-05 14:00:56,957 [INFO] Already downloaded: downloads/July_31st_2023_-_April_4th_2023_Crime_News.pdf
+2025-10-05 14:00:56,983 [INFO] Opened PDF: downloads/July_31st_2023_-_April_4th_2023_Crime_News.pdf with 20 pages
+2025-10-05 14:00:57,156 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 1, 33 lines
+2025-10-05 14:00:57,332 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 2, 34 lines
+2025-10-05 14:00:57,470 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 3, 32 lines
+2025-10-05 14:00:57,626 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 4, 33 lines
+2025-10-05 14:00:57,842 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 5, 34 lines
+2025-10-05 14:00:58,039 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 6, 34 lines
+2025-10-05 14:00:58,281 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 7, 33 lines
+2025-10-05 14:00:58,412 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 8, 33 lines
+2025-10-05 14:00:58,590 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 9, 34 lines
+2025-10-05 14:00:58,796 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 10, 33 lines
+2025-10-05 14:00:58,998 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 11, 33 lines
+2025-10-05 14:00:59,167 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 12, 32 lines
+2025-10-05 14:00:59,335 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 13, 34 lines
+2025-10-05 14:00:59,482 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 14, 33 lines
+2025-10-05 14:00:59,669 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 15, 32 lines
+2025-10-05 14:00:59,821 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 16, 34 lines
+2025-10-05 14:01:00,007 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 17, 34 lines
+2025-10-05 14:01:00,151 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 18, 31 lines
+2025-10-05 14:01:00,294 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 19, 30 lines
+2025-10-05 14:01:00,306 [INFO] [July 31st 2023 - April 4th 2023 Crime News] Page 20, 5 lines
+2025-10-05 14:01:00,308 [INFO] Parsed 95 cases from downloads/July_31st_2023_-_April_4th_2023_Crime_News.pdf
+2025-10-05 14:01:00,308 [INFO] [13/13] Total cases collected so far: 775
+2025-10-05 14:01:00,355 [INFO] Done. Saved 775 records to results/all_crime_news.csv and results/all_crime_news.json
