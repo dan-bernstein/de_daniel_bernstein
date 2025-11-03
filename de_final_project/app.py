@@ -3,7 +3,7 @@ import pandas as pd
 import folium
 from streamlit_folium import st_folium
 
-df = pd.read_csv("results/all_crime_news_geo.csv")
+df = pd.read_csv("test.csv")
 
 m = folium.Map(location=[df['lat'].mean(), df['lon'].mean()], zoom_start=13)
 for _, row in df.iterrows():
