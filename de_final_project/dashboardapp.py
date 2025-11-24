@@ -46,7 +46,7 @@ st.markdown("""
 # === Load Data ===
 @st.cache_data
 def load_data():
-    df = pd.read_csv("/Users/danielbernstein/de_daniel_bernstein/de_final_project/incidents_with_latlon.csv")
+    df = pd.read_csv("incidents_with_latlon.csv")
     df = df.dropna(subset=["latitude", "longitude"])
     df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
     df['Year Reported'] = pd.to_numeric(df['Year Reported'], errors='coerce')
@@ -62,7 +62,7 @@ with col1:
     st.title("🚓 Somerville Police Crime Analytics Dashboard")
     st.markdown("**Real-time insights into crime patterns and trends**")
 with col2:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Seal_of_Somerville%2C_Massachusetts.svg/240px-Seal_of_Somerville%2C_Massachusetts.svg.png", width=100)
+    st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW6zdhYtmF1foNwY5uIs2DjbWZ8f_oK4EuWQ&s", width=100)
 
 st.markdown("---")
 
