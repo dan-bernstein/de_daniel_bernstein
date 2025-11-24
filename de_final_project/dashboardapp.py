@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import duckdb
 import folium
 from streamlit_folium import st_folium
 import plotly.express as px
@@ -43,15 +44,44 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# === Load Data ===
 @st.cache_data
 def load_data():
-    df = pd.read_csv("incidents_with_latlon.csv")
+    """Load data from MotherDuck database"""
+    
+    # Get credentials from Streamlit secrets
+    motherduck_token = st.secrets["motherduck"]["token"]
+    database = st.secrets["motherduck"]["database"]
+    schema = st.secrets["motherduck"]["schema"]
+    table = st.secrets["motherduck"]["table"]
+    
+    # Connect to MotherDuck
+    con = duckdb.connect(f'md:?motherduck_token={motherduck_token}')
+    
+    # Query your data
+    query = f"""
+    SELECT * 
+    FROM {database}.{schema}.{table}
+    """
+    
+    try:
+        df = con.execute(query).df()
+        con.close()
+    except Exception as e:
+        st.error(f"Error loading data from MotherDuck: {e}")
+        con.close()
+        return pd.DataFrame()  # Return empty DataFrame on error
+    
+    # Your existing data processing
     df = df.dropna(subset=["latitude", "longitude"])
     df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
     df['Year Reported'] = pd.to_numeric(df['Year Reported'], errors='coerce')
     df['Hour'] = pd.to_datetime(df['Time'], format='%I:%M %p', errors='coerce').dt.hour
     df['date_numeric'] = (df['Date'] - df['Date'].min()).dt.days
+    
+    # Convert Ward to integer to remove .0
+    df['Ward'] = pd.to_numeric(df['Ward'], errors='coerce')
+    df['Ward'] = df['Ward'].fillna(0).astype(int)
+    
     return df
 
 df = load_data()
