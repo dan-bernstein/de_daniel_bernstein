@@ -90,7 +90,7 @@ df = load_data()
 col1, col2 = st.columns([3, 1])
 with col1:
     st.title("🚓 Somerville Police Crime Analytics Dashboard")
-    st.markdown("**Real-time insights into crime patterns and trends**")
+    st.markdown("**Insights into crime patterns and trends**")
 with col2:
     st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW6zdhYtmF1foNwY5uIs2DjbWZ8f_oK4EuWQ&s", width=100)
 
@@ -214,15 +214,15 @@ with col1:
     
     # Color mapping for different offense types
     color_map = {
-        "Burglary/Breaking And Entering": "#FF8C00",  # Dark Orange
-        "Larceny/Theft Offenses": "#FF4400B0",           # Red-Orange
-        "Assault Offenses": "#DC1414",                 # Crimson
-        "Theft From Motor Vehicle": "#887249",         # Orange
-        "Motor Vehicle Theft": "#FFD700",              # Gold
-        "Robbery": "#33B222",                          # Firebrick
-        "Weapon Law Violations": "#00FFEE",            # Dark Red
-        "Drug/Narcotic Offenses": "#9400D3",           # Dark Violet
-        "Vandalism": "#A8A3CE",                        # Deep Pink
+        "Burglary/Breaking And Entering": "#FF0000C5", 
+        "Larceny/Theft Offenses": "#FF8000B8",           
+        "Assault Offenses": "#FFFF00C5",                
+        "Theft From Motor Vehicle": "#00FF00A6",         
+        "Motor Vehicle Theft": "#0000FF9E",              
+        "Robbery": "#8000FFAB",                      
+        "Weapon Law Violations": "#8B4513",            
+        "Drug/Narcotic Offenses": "#000000",          
+        "Vandalism": "#A8A3CE",                       
     }
     
     # Add markers for each incident
@@ -258,16 +258,15 @@ with col2:
     st.subheader("Map Legend")
     st.markdown("""
     **Crime Types:**
-    - **Burglary/Breaking & Entering**
-    - **Larceny/Theft Offenses**
-    - **Assault Offenses**
-    - **Theft From Motor Vehicle**
-    - **Motor Vehicle Theft**
-    - **Robbery**
-    - **Weapon Law Violations**
-    - **Drug/Narcotic Offenses**
-    - **Vandalism**
-    - **Other Offenses**
+    - 🟥 **Burglary/Breaking & Entering**
+    - 🟧 **Larceny/Theft Offenses**
+    - 🟨 **Assault Offenses**
+    - 🟩 **Theft From Motor Vehicle**
+    - 🟦 **Motor Vehicle Theft**
+    - 🟪 **Robbery**
+    - 🟫 **Weapon Law Violations**
+    - ⬛ **Drug/Narcotic Offenses**
+    - ⬜ **Vandalism**
     """)
     
     st.subheader("Quick Stats")
