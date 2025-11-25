@@ -6,8 +6,10 @@ venv/
 .venv/
 build/
 dist/
-*.egg-info/
 .vscode/
 .idea/
 .DS_Store
 .archive
+.streamlit
+.gitignore
+simple_dbt_project
