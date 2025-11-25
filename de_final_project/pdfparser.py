@@ -5,9 +5,7 @@ import json
 import subprocess
 import os
 
-# =======================
-# CONFIG
-# =======================
+
 json_file = "source/files.json"
 output_csv = "results/all_crime_news.csv"
 output_json = "results/all_crime_news.json"
@@ -15,9 +13,8 @@ download_dir = "downloads"
 
 os.makedirs(download_dir, exist_ok=True)
 os.makedirs(os.path.dirname(output_csv), exist_ok=True)
-# =======================
 
-# Regex for 8-digit case numbers
+#8-digit case numbers
 case_pattern = re.compile(
     r"^(\d{8}): On (\d{1,2}/\d{1,2}/\d{2})(?: at(?: approximately)? ([\d: ]+[APM]*))?, (.*)",
     re.IGNORECASE,
@@ -36,7 +33,6 @@ def parse_pdf(pdf_path, source_title):
                 if not text:
                     continue
 
-                # Fix hyphenation across line breaks
                 text = text.replace("-\n", "")
 
                 lines = text.split("\n")
@@ -46,20 +42,16 @@ def parse_pdf(pdf_path, source_title):
                     if not line:
                         continue
 
-                    # Skip headers/footers
                     if re.match(r"^(Page \d+|Crime Log.*)$", line, re.IGNORECASE):
                         continue
 
-                    # Short headings like "Assault", "Arrest"
                     if len(line.split()) < 6 and not re.match(r"^\d{8}:", line):
                         current_type = line
                         continue
 
-                    # Start of a new case
                     match = case_pattern.match(line)
                     if match:
                         if current_record:
-                            # Finalize previous record
                             current_record["Description"] = " ".join(current_record["Description"]).replace("\u2028", " ").strip()
                             records.append(current_record)
 
@@ -70,13 +62,11 @@ def parse_pdf(pdf_path, source_title):
                             "Date": date,
                             "Time": time if time else "",
                             "Type": current_type,
-                            "Description": [details.strip()],  # collect lines
+                            "Description": [details.strip()],
                         }
                     elif current_record:
-                        # Continuation of description
                         current_record["Description"].append(line.strip())
 
-        # Append last record
         if current_record:
             current_record["Description"] = " ".join(current_record["Description"]).replace("\u2028", " ").strip()
             records.append(current_record)
@@ -112,7 +102,7 @@ def main():
         records = parse_pdf(pdf_path, title)
         all_records.extend(records)
 
-    # Save outputs
+    # Save output
     df = pd.DataFrame(all_records)
     df.to_csv(output_csv, index=False)
     df.to_json(output_json, orient="records", indent=2)
