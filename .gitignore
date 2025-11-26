@@ -12,5 +12,3 @@ dist/
 .archive
 .streamlit
 .gitignore
-simple_dbt_project/
-simple_dbt_project

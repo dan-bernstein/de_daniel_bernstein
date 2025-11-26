@@ -48,16 +48,13 @@ st.markdown("""
 def load_data():
     """Load data from MotherDuck database"""
     
-    # Get credentials from Streamlit secrets
     motherduck_token = st.secrets["motherduck"]["token"]
     database = st.secrets["motherduck"]["database"]
     schema = st.secrets["motherduck"]["schema"]
     table = st.secrets["motherduck"]["table"]
     
-    # Connect to MotherDuck
     con = duckdb.connect(f'md:?motherduck_token={motherduck_token}')
     
-    # Query your data
     query = f"""
     SELECT * 
     FROM {database}.{schema}.{table}
@@ -69,16 +66,14 @@ def load_data():
     except Exception as e:
         st.error(f"Error loading data from MotherDuck: {e}")
         con.close()
-        return pd.DataFrame()  # Return empty DataFrame on error
+        return pd.DataFrame() 
     
-    # Your existing data processing
     df = df.dropna(subset=["latitude", "longitude"])
     df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
     df['Year Reported'] = pd.to_numeric(df['Year Reported'], errors='coerce')
     df['Hour'] = pd.to_datetime(df['Time'], format='%I:%M %p', errors='coerce').dt.hour
     df['date_numeric'] = (df['Date'] - df['Date'].min()).dt.days
     
-    # Convert Ward to integer to remove .0
     df['Ward'] = pd.to_numeric(df['Ward'], errors='coerce')
     df['Ward'] = df['Ward'].fillna(0).astype(int)
     
@@ -86,7 +81,6 @@ def load_data():
 
 df = load_data()
 
-# === Header ===
 col1, col2 = st.columns([3, 1])
 with col1:
     st.title("🚓 Somerville Police Crime Analytics Dashboard")
@@ -96,16 +90,13 @@ with col2:
 
 st.markdown("---")
 
-# === Integrated Filters ===
 st.subheader("Filter Data")
 
-# Date Range Slider
 col1, col2 = st.columns([3, 1])
 with col1:
     min_date = df['Date'].min().date()
     max_date = df['Date'].max().date()
     
-    # Create slider with date values
     date_range = st.slider(
         "Select Date Range",
         min_value=min_date,
@@ -120,7 +111,6 @@ with col1:
 with col2:
     st.metric("Date Range", f"{(end_date - start_date).days} days")
 
-# Other filters in expandable sections
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
@@ -134,7 +124,7 @@ with col1:
         )
 
 with col2:
-    with st.expander("🔎 Specific Crime Types", expanded=False):
+    with st.expander("Specific Crime Types", expanded=False):
         crime_types = sorted(df["Offense Sub-Category"].dropna().unique())
         selected_crime_types = st.multiselect(
             "Select specific crimes",
@@ -193,13 +183,11 @@ with col4:
 
 st.markdown("---")
 
-# === Map Visualization with Folium ===
 col1, col2 = st.columns([2, 1])
 
 with col1:
     st.subheader("Crime Incident Map")
     
-    # Create Folium map centered on Somerville
     if len(filtered_df) > 0:
         center_lat = filtered_df['latitude'].mean()
         center_lon = filtered_df['longitude'].mean()
@@ -212,7 +200,6 @@ with col1:
         tiles='OpenStreetMap'
     )
     
-    # Color mapping for different offense types
     color_map = {
         "Burglary/Breaking And Entering": "#FF0000C5", 
         "Larceny/Theft Offenses": "#FF8000B8",           
@@ -225,7 +212,6 @@ with col1:
         "Vandalism": "#A8A3CE",                       
     }
     
-    # Add markers for each incident
     for idx, row in filtered_df.iterrows():
         color = color_map.get(row['Offense Sub-Category'], '#6495ED')
         
@@ -282,7 +268,6 @@ with col2:
 
 st.markdown("---")
 
-# === Analytics Section ===
 st.subheader("Crime Analytics & Trends")
 
 tab1, tab2, tab3, tab4 = st.tabs(["📅 Temporal Trends", "🏘️ Geographic Analysis", "🔢 Crime Types", "⏰ Time Analysis"])
@@ -291,7 +276,6 @@ with tab1:
     col1, col2 = st.columns(2)
     
     with col1:
-        # Crimes over time
         if len(filtered_df) > 0:
             crimes_over_time = filtered_df.groupby(filtered_df['Date'].dt.to_period('M')).size().reset_index()
             crimes_over_time['Date'] = crimes_over_time['Date'].dt.to_timestamp()
@@ -311,7 +295,6 @@ with tab1:
             st.info("No data to display")
     
     with col2:
-        # Year comparison
         if len(filtered_df) > 0:
             yearly_counts = filtered_df['Year Reported'].value_counts().sort_index()
             fig_yearly = px.bar(
@@ -330,7 +313,6 @@ with tab2:
     col1, col2 = st.columns(2)
     
     with col1:
-        # Crimes by Ward
         if len(filtered_df) > 0:
             ward_counts = filtered_df['Ward'].value_counts().reset_index()
             ward_counts.columns = ['Ward', 'Count']
@@ -348,14 +330,13 @@ with tab2:
             st.info("No data to display")
     
     with col2:
-        # Heatmap by category and ward
         if len(filtered_df) > 0:
-            heatmap_data = pd.crosstab(filtered_df['Ward'], filtered_df['Offense Category'])
+            heatmap_data = pd.crosstab(filtered_df['Ward'], filtered_df['Offense Type'])
             
             fig_heatmap = px.imshow(
                 heatmap_data,
                 title='Crime Categories by Ward',
-                labels=dict(x="Crime Category", y="Ward", color="Incidents"),
+                labels=dict(x="Offense Type", y="Ward", color="Incidents"),
                 color_continuous_scale='RdYlBu_r',
                 aspect='auto'
             )
@@ -367,7 +348,6 @@ with tab3:
     col1, col2 = st.columns(2)
     
     with col1:
-        # Top 10 offense types
         if len(filtered_df) > 0:
             top_offenses = filtered_df['Offense Sub-Category'].value_counts().head(10)
             
@@ -387,7 +367,7 @@ with tab3:
     with col2:
         # Crime category pie chart
         if len(filtered_df) > 0:
-            category_counts = filtered_df['Offense Category'].value_counts()
+            category_counts = filtered_df['Offense Type'].value_counts()
             
             fig_pie = px.pie(
                 values=category_counts.values,
@@ -403,7 +383,6 @@ with tab4:
     col1, col2 = st.columns(2)
     
     with col1:
-        # Crimes by shift
         if len(filtered_df) > 0:
             shift_counts = filtered_df['Police Shift'].value_counts()
             
@@ -421,7 +400,6 @@ with tab4:
             st.info("No data to display")
     
     with col2:
-        # Hourly distribution
         if len(filtered_df) > 0 and 'Hour' in filtered_df.columns:
             hourly_counts = filtered_df['Hour'].value_counts().sort_index()
             
