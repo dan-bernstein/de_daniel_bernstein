@@ -40,7 +40,7 @@ def extract_all_links():
         all_links.update(links)
 
         print(f"Found {len(links)} links on this page, {len(all_links)} total collected so far.")
-        offset += 5  # Somerville site increments in steps of 5
+        offset += 5  # site increments in steps of 5
 
     return list(all_links)
 

@@ -8,14 +8,12 @@ OUTPUT_CSV = "incidents_with_latlon.csv"
 BLOCK_COLUMN = "Block Code"
 
 def detect_geoid_field(gdf):
-    """Return the column name in the block shapefile dataframe that looks like GEOID (case-insensitive)."""
     for col in gdf.columns:
         if "geoid" in col.lower():
             return col
     raise KeyError("No GEOID field found in shapefile. Columns: " + ", ".join(gdf.columns))
 
 def normalize_geoid(s):
-    """Normalize various representations to a clean string GEOID (no decimals, no spaces)."""
     if pd.isna(s):
         return ""
     s = str(s).strip()
